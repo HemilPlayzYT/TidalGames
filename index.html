@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tidal Games</h1>
+        <input id="searchbar" type="text" onkeyup="search_games()" style="height: 40px;width: 300px;
+        position: relative;top: 12px;background-color: rgb(51, 137, 187);border: 2px solid #000000;border-radius:10px;font-size:20px;font-family: 'Poppins';text-indent: 10px;">
+        <h1 class="settings-btn">Settings</h1>
+    </header>
+
+    <div class="cards-container">
+        <div class="card">
+            <img src="slope.png" alt="" class="image">
+            <h1 class="game-name">Slope</h1>
+            <p class="information">Slope Is A Parkour Game</p>
+            <div class="play-button">
+                <a href="https://Slope-tidalgames.mrbloxxy.repl.co" class="link">Play</a>
+            </div>
+            <div class="card-info">
+                <div class="thumbsup">
+                    <i class="material-symbols-outlined likebutton">
+                        thumb_up
+                    </i>
+                    <input type="number" value="0" class="like-counter" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+                <div class="thumbsdown">
+                    <i class="material-symbols-outlined dislikebutton">
+                        thumb_down
+                    </i>
+                  <input type="number" value="0" class="dislike-counter" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="menja.png" alt="" class="image">
+            <h1 class="game-name">Menja</h1>
+            <p class="information">Menja Is Block Ninja</p>
+            <div class="play-button">
+                <a href="Menja/Menja.html" class="link">Play</a>
+            </div>
+            <div class="card-info">
+                <div class="thumbsup">
+                    <i class="material-symbols-outlined likebutton1">
+                        thumb_up
+                    </i>
+                  <input type="number" value="0" class="like-counter1" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+                <div class="thumbsdown">
+                    <i class="material-symbols-outlined dislikebutton1">
+                        thumb_down
+                    </i>
+                  <input type="number" value="0" class="dislike-counter1" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Capture.PNG" alt="" class="image">
+            <h1 class="game-name">Snake</h1>
+            <p class="information">Classic Snake Game</p>
+            <div class="play-button">
+                <a href="Menja/Menja.html" class="link">Play</a>
+            </div>
+            <div class="card-info">
+                <div class="thumbsup">
+                    <i class="material-symbols-outlined likebutton2">
+                        thumb_up
+                    </i>
+                  <input type="number" value="0" class="like-counter2" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+                <div class="thumbsdown">
+                    <i class="material-symbols-outlined dislikebutton2">
+                        thumb_down
+                    </i>
+                  <input type="number" value="0" class="dislike-counter2" readonly style="width: 57px;position: relative;left: 10px;top: -2px;font-size: 20px;outline: none;border: none;text-align: center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
